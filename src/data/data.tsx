@@ -80,9 +80,8 @@ export const heroData: Hero = {
         tools that help leaders see all the work, make better trade-offs, and deliver outcomes with confidence.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        My background spans AI & automation, SaaS product ownership, IT intake and engagement, digital supplier
-        ecosystems, and a $500M retail portfolio. I love turning complex, messy systems into clear, human-centered
-        products that teams actually want to use.
+        My background spans AI and automation, SaaS product ownership, IT intake and engagement, digital supplier
+        ecosystems, and a $500M retail portfolio.
       </p>
     </>
   ),
@@ -106,7 +105,8 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Senior Technical Product Manager who thrives at the intersection of technology, strategy, and human impact. I build AI products, portfolio frameworks, and enablement programs that make work simpler, smarter, and safer—while staying grounded in compliance, financial rigor, and real business outcomes.`,
+  description:
+    'Senior Technical Product Manager who thrives at the intersection of technology, strategy, and human impact. I build AI products, portfolio frameworks, and enablement programs that make work simpler, smarter, and safer—while staying grounded in compliance, financial rigor, and real business outcomes.',
   aboutItems: [
     { label: 'Location', text: 'Seattle, WA', Icon: MapIcon },
     {
@@ -127,7 +127,6 @@ export const aboutData: About = {
 
 /**
  * Skills section
- * Levels are 1–10 and only used for the visual bars.
  */
 export const skills: SkillGroup[] = [
   {
@@ -154,12 +153,4 @@ export const skills: SkillGroup[] = [
       { name: 'Jira & Jira ROVO', level: 8 },
       { name: 'Power BI & KPI Design', level: 7 },
       { name: 'Microsoft 365 & Collaboration Workflows', level: 8 },
-      { name: 'Digital Analytics & Performance Dashboards', level: 7 },
-    ],
-  },
-  {
-    name: 'Business & Commercial',
-    skills: [
-      { name: 'P&L Ownership & Financial Analysis', level: 8 },
-      { name: 'Vendor & Supplier Strategy', level: 8 },
-      { name: 'Cross-Functional Leadership', l
+      { name: 'Digital Analytics & Performance Dashboards', le
