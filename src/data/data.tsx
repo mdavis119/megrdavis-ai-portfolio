@@ -153,4 +153,226 @@ export const skills: SkillGroup[] = [
       { name: 'Jira & Jira ROVO', level: 8 },
       { name: 'Power BI & KPI Design', level: 7 },
       { name: 'Microsoft 365 & Collaboration Workflows', level: 8 },
-      { name: 'Digital Analytics & Performance Dashboards', le
+      { name: 'Digital Analytics & Performance Dashboards', level: 7 },
+    ],
+  },
+  {
+    name: 'Business & Commercial',
+    skills: [
+      { name: 'P&L Ownership & Financial Analysis', level: 8 },
+      { name: 'Vendor & Supplier Strategy', level: 8 },
+      { name: 'Cross-Functional Leadership', level: 9 },
+    ],
+  },
+];
+
+/**
+ * Portfolio section
+ */
+export const portfolioItems: PortfolioItem[] = [
+  {
+    title: 'AI Center of Excellence & Builders Hub',
+    description:
+      'Established an AI Center of Excellence, learning hub, and universal bot builder GPT to scale AI safely through reusable tools, upskilling programs, and the 100-Day AI Challenge.',
+    url: '#',
+    image: porfolioImage1,
+  },
+  {
+    title: 'Capitalization Chatbot → Jira ROVO Agent',
+    description:
+      'Designed and launched a patent-pending accounting capitalization chatbot that evolved into a Jira ROVO agent to automate capitalization assessments and improve decision speed and accuracy.',
+    url: '#',
+    image: porfolioImage2,
+  },
+  {
+    title: 'Single Front Door & IT 1–N Prioritization',
+    description:
+      'Launched T-Mobile’s Single Front Door to streamline IT intake across multiple domains, supporting 3K+ annual initiatives, and built an IT 1–N prioritization framework and assessment dashboard.',
+    url: '#',
+    image: porfolioImage3,
+  },
+  {
+    title: 'Portfolio SaaS Solution MVP',
+    description:
+      'Spearheaded development and on-time launch of a Portfolio SaaS MVP adopted by 1,600 users across IT and business portfolio teams.',
+    url: '#',
+    image: porfolioImage4,
+  },
+  {
+    title: 'Digital Supplier Ecosystem & Tooling',
+    description:
+      'Managed transition to 11 strategic suppliers with $200M in annual digital spend and created prototypes for supplier payment and performance tooling.',
+    url: '#',
+    image: porfolioImage5,
+  },
+  {
+    title: 'Amazon Fashion Portfolio & Accelerator',
+    description:
+      'Managed a $500M Amazon Fashion portfolio with 36% revenue growth and scaled an emerging brands accelerator from 11 to 70+ companies.',
+    url: '#',
+    image: porfolioImage6,
+  },
+];
+
+/**
+ * Resume section
+ */
+export const education: TimelineItem[] = [
+  {
+    date: '2015',
+    location: 'Georgia State University',
+    title: 'Bachelor of Business Administration',
+    content: (
+      <p>
+        Completed a B.B.A. with a strong foundation in business, analytics, and operations—later applied to product
+        management, portfolio strategy, and AI-enabled transformation.
+      </p>
+    ),
+  },
+];
+
+export const experience: TimelineItem[] = [
+  {
+    date: 'July 2025 – Present',
+    location: 'T-Mobile – Bellevue, WA',
+    title: 'Sr Technical Product Manager, AI Transformation & Enablement Lead',
+    content: (
+      <p>
+        Established an AI Center of Excellence, learning hub, and universal bot builder GPT. Built an AI governance
+        framework and advisor registry, launched a patent-pending capitalization chatbot that evolved into a Jira ROVO
+        agent, and created AI shared services and an “AI colleague” concept to extend expertise across portfolio,
+        program, change management, IT intake, and SOX compliance.
+      </p>
+    ),
+  },
+  {
+    date: 'August 2024 – June 2025',
+    location: 'T-Mobile – Bellevue, WA',
+    title: 'Sr Technical Product Manager, IT Intake & Engagement',
+    content: (
+      <p>
+        Launched the Single Front Door to streamline IT intake across Compliance, Consumer, Marketing, Back Office,
+        Cybersecurity, and IT domains. Built an IT 1–N prioritization framework, an assessment dashboard, and an IT
+        critical staffing forum to improve visibility and decision-making for 3K+ annual initiatives.
+      </p>
+    ),
+  },
+  {
+    date: 'July 2023 – July 2024',
+    location: 'T-Mobile – Bellevue, WA',
+    title: 'Sr Technical Product Manager, SaaS Product Owner',
+    content: (
+      <p>
+        Led the development and on-time launch of a Portfolio SaaS MVP used by 1,600 users across IT and business
+        portfolio teams. Coordinated FP&amp;A, Accounting, SOX, Agile Coaches, and developers, and negotiated with the
+        SaaS provider to close critical functionality gaps.
+      </p>
+    ),
+  },
+  {
+    date: 'January 2022 – June 2023',
+    location: 'T-Mobile – Bellevue, WA',
+    title: 'Sr Technical Product Manager, Digital Marketing Event',
+    content: (
+      <p>
+        Provided weekly portfolio reporting to the CDO &amp; CIO, managed the transition to 11 strategic suppliers
+        representing $200M in annual spend, and created prototypes and requirements for supplier payment and performance
+        tooling.
+      </p>
+    ),
+  },
+  {
+    date: 'January 2020 – January 2022',
+    location: 'Amazon – Seattle, WA',
+    title: 'Vendor Manager, Amazon Fashion',
+    content: (
+      <p>
+        Managed a strategic fashion brand portfolio with $500M annual revenue and 36% growth, owned P&amp;L with
+        $325M+ in incremental profit, and scaled an emerging brands accelerator from 11 pilot companies to 70+.
+      </p>
+    ),
+  },
+  {
+    date: 'September 2018 – December 2019',
+    location: 'The Home Depot – Atlanta, GA',
+    title: 'Sr Business Analyst',
+    content: (
+      <p>
+        Sourced strategic suppliers to reduce raw material spend, co-led the design and launch of a Kanban inventory
+        management system, and co-developed IT tools to manage supplier scorecard data.
+      </p>
+    ),
+  },
+  {
+    date: 'May 2014 – September 2018',
+    location: 'Costco Wholesale – Duluth, GA',
+    title: 'Inventory Analyst',
+    content: (
+      <p>
+        Managed multiple international and domestic product categories, forecasted demand, leveraged BI Planning tools
+        to avoid profit loss, and pitched new items to senior leadership to increase category profitability.
+      </p>
+    ),
+  },
+  {
+    date: 'May 2013 – May 2014',
+    location: 'Costco Wholesale – Duluth, GA',
+    title: 'Traffic Manager',
+    content: (
+      <p>
+        Analyzed ocean, rail, and over-the-road freight costs and coordinated shipments for the Southeast Region and
+        Puerto Rico, translating business needs into logistics strategies.
+      </p>
+    ),
+  },
+];
+
+/**
+ * Testimonial section (empty for now)
+ */
+export const testimonial: TestimonialSection = {
+  imageSrc: testimonialImage,
+  testimonials: [],
+};
+
+/**
+ * Contact section
+ */
+export const contact: ContactSection = {
+  headerText: 'Get in touch.',
+  description:
+    'If you’re exploring AI products, portfolio tools, or governance frameworks that people can trust—and that actually ship—I’d love to connect.',
+  items: [
+    {
+      type: ContactType.Email,
+      text: 'mdmegrose@gmail.com',
+      href: 'mailto:mdmegrose@gmail.com',
+    },
+    {
+      type: ContactType.Location,
+      text: 'Seattle, WA, USA',
+      href: 'https://www.google.com/maps/place/Seattle,+WA',
+    },
+    {
+      type: ContactType.Github,
+      text: 'github.com/mdavis119',
+      href: 'https://github.com/mdavis119',
+    },
+    {
+      type: ContactType.Instagram,
+      text: '@megan',
+      href: 'https://www.instagram.com',
+    },
+  ],
+};
+
+/**
+ * Social items
+ */
+export const socialLinks: Social[] = [
+  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/mdavis119' },
+  { label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com' },
+  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/megrdavis/' },
+  { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com' },
+  { label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com' },
+];
