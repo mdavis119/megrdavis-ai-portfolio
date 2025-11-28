@@ -67,20 +67,21 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 export const heroData: Hero = {
   imageSrc: heroImage,
   name: `I'm Megan Davis.`,
-  description: (
-    <>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I’m a Seattle-based <strong className="text-stone-100">Senior Technical Product Manager</strong> focused on AI
-        transformation, portfolio management, and enablement. At{' '}
-        <strong className="text-stone-100">T-Mobile</strong>, I build AI solutions, intake frameworks, and portfolio
-        tools that help leaders see all the work, make better trade-offs, and deliver outcomes with confidence.
-      </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        My background spans AI and automation, SaaS product ownership, IT intake and engagement, digital supplier
-        ecosystems, and a $500M retail portfolio.
-      </p>
-    </>
-  ),
+ description: (
+  <>
+    <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+      Hi, I’m Megan. I care deeply about human-centered AI systems and workflows.  
+      My work is guided by a belief in AI for Everyone and AI for Good, where tools are useful, understandable, and accessible.  
+      As the AI Transformation and Enablement Lead for an Engineering and Excellence IT organization, I’m focused on helping teams explore AI safely and confidently  
+      created our AI Center of Excellence, built responsible-AI guardrails, and developed resources that make it easier for both technical and non-technical teams to start working with AI in practical, meaningful ways.
+    </p>
+
+    <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+      I’ve also built hands-on tools like a ChatGPT-powered chatbot-builder bot that lowers the barrier to entry, and a capital assessment support bot that evolved into an embedded ROVO agent inside Jira.  
+      These projects reflect what I care about most: reducing friction, simplifying complexity, and making AI genuinely helpful for people doing real work.
+    </p>
+  </>
+),
   actions: [
     {
       href: '/assets/resume.pdf',
