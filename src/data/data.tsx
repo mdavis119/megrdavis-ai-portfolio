@@ -73,7 +73,7 @@ export const heroData: Hero = {
     </p>
 
     <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      I’ve also built hands-on tools like a ChatGPT-powered chatbot-builder bot that lowers the barrier to entry, and a capital assessment support bot that evolved into an embedded ROVO agent inside Jira.  
+      I’ve also built hands-on tools like a ChatGPT-powered chatbot-builder that lowers the barrier to entry, and a capital assessment support bot that evolved into an embedded ROVO agent inside Jira.  
       These projects reflect what I care about most: reducing friction, simplifying complexity, and making AI genuinely helpful for people doing real work.
     </p>
   </>
@@ -333,7 +333,7 @@ export const testimonial: TestimonialSection = {
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
   description:
-    'If you’re exploring AI products, portfolio tools, or governance frameworks that people can trust—and that actually ship—I’d love to connect.',
+    'If you’re hiring for AI product leadership, building responsible AI frameworks, or just think my background could be a great fit for your team, I’d love to connect.',
   items: [
     {
       type: ContactType.Email,
@@ -344,16 +344,6 @@ export const contact: ContactSection = {
       type: ContactType.Location,
       text: 'Seattle, WA, USA',
       href: 'https://www.google.com/maps/place/Seattle,+WA',
-    },
-    {
-      type: ContactType.Github,
-      text: 'github.com/mdavis119',
-      href: 'https://github.com/mdavis119',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@megan',
-      href: 'https://www.instagram.com',
     },
   ],
 };
