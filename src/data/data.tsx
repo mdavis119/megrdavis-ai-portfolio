@@ -99,7 +99,7 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description:
-    'Senior Technical Product Manager who thrives at the intersection of technology, strategy, and human impact. I build AI products, portfolio frameworks, and enablement programs that make work simpler, smarter, and safer—while staying grounded in compliance, financial rigor, and real business outcomes.',
+    'Senior Technical Product Manager who thrives at the intersection of technology, strategy, and human impact. I build AI products, portfolio frameworks, and enablement programs that make work simpler and smarter.',
   aboutItems: [
     { label: 'Location', text: 'Seattle, WA', Icon: MapIcon },
     {
@@ -110,7 +110,7 @@ export const aboutData: About = {
     { label: 'Industry Experience', text: 'Telecom, Retail, eCommerce, Supply Chain', Icon: FlagIcon },
     {
       label: 'Interests',
-      text: 'AI ethics, no-code tools, travel, dachshunds, great coffee',
+      text: 'AI ethics, no-code tools, travel, stand-up comedy, great coffee',
       Icon: SparklesIcon,
     },
     { label: 'Study', text: 'B.B.A., Georgia State University', Icon: AcademicCapIcon },
@@ -125,28 +125,27 @@ export const skills: SkillGroup[] = [
   {
     name: 'AI & Product',
     skills: [
-      { name: 'AI Product Strategy & Roadmapping', level: 9 },
+      { name: 'AI Product Strategy & Roadmapping', level: 8 },
       { name: 'Generative AI & Custom GPTs', level: 9 },
-      { name: 'AI Governance & Compliance Frameworks', level: 8 },
-      { name: 'User-Centered Product Discovery', level: 8 },
+      { name: 'AI Governance & Compliance Frameworks', level: 7 },
+      { name: 'User-Centered Product Discovery', level: 7 },
     ],
   },
   {
     name: 'Portfolio, Program & Delivery',
     skills: [
-      { name: 'IT Intake & Single Front Door Design', level: 9 },
-      { name: 'Portfolio Prioritization & 1–N Frameworks', level: 9 },
-      { name: 'SaaS Product Ownership & Vendor Management', level: 8 },
-      { name: 'Stakeholder Alignment & Executive Reporting', level: 8 },
+      { name: 'IT Intake Design', level: 7 },
+      { name: 'Portfolio Prioritization & 1–N Frameworks', level: 7 },
+      { name: 'SaaS Product Ownership & Vendor Management', level: 7 },
+      { name: 'Stakeholder Alignment & Executive Reporting', level: 7 },
     ],
   },
   {
     name: 'Data, Tools & Platforms',
     skills: [
-      { name: 'Jira & Jira ROVO', level: 8 },
-      { name: 'Power BI & KPI Design', level: 7 },
+      { name: 'Jira & Jira ROVO', level: 6 },
       { name: 'Microsoft 365 & Collaboration Workflows', level: 8 },
-      { name: 'Digital Analytics & Performance Dashboards', level: 7 },
+      { name: 'Digital Analytics & Performance Metrics', level: 7 },
     ],
   },
   {
@@ -180,7 +179,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Single Front Door & IT 1–N Prioritization',
     description:
-      'Launched T-Mobile’s Single Front Door to streamline IT intake across multiple domains, supporting 3K+ annual initiatives, and built an IT 1–N prioritization framework and assessment dashboard.',
+      'Launched T-Mobile’s Single Front Door to streamline IT intake across multiple domains, supporting 3K+ annual initiatives, and built an IT 1–N prioritization framework.',
     url: '#',
     image: porfolioImage3,
   },
@@ -217,7 +216,7 @@ export const education: TimelineItem[] = [
     title: 'Bachelor of Business Administration',
     content: (
       <p>
-        Completed a B.B.A. with a strong foundation in business, analytics, and operations—later applied to product
+        Completed a B.B.A. with a strong foundation in business, analytics, and operations later applied to product
         management, portfolio strategy, and AI-enabled transformation.
       </p>
     ),
@@ -233,7 +232,7 @@ export const experience: TimelineItem[] = [
       <p>
         Established an AI Center of Excellence, learning hub, and universal bot builder GPT. Built an AI governance
         framework and advisor registry, launched a patent-pending capitalization chatbot that evolved into a Jira ROVO
-        agent, and created AI shared services and an “AI colleague” concept to extend expertise across portfolio,
+        agent, and created AI shared services and an “AI colleague” concept to democratize domain specific expertise across portfolio,
         program, change management, IT intake, and SOX compliance.
       </p>
     ),
@@ -245,7 +244,7 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         Launched the Single Front Door to streamline IT intake across Compliance, Consumer, Marketing, Back Office,
-        Cybersecurity, and IT domains. Built an IT 1–N prioritization framework, an assessment dashboard, and an IT
+        Cybersecurity, and IT domains. Built an IT 1–N prioritization framework, designed an intake performance dashboard, and stood up an IT
         critical staffing forum to improve visibility and decision-making for 3K+ annual initiatives.
       </p>
     ),
@@ -257,7 +256,7 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         Led the development and on-time launch of a Portfolio SaaS MVP used by 1,600 users across IT and business
-        portfolio teams. Coordinated FP&amp;A, Accounting, SOX, Agile Coaches, and developers, and negotiated with the
+        portfolio teams. Coordinated Finance, Accounting, SOX, Agile Coaches, and developers, and negotiated with the
         SaaS provider to close critical functionality gaps.
       </p>
     ),
