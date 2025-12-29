@@ -146,6 +146,16 @@ export const skills: SkillGroup[] = [
       { name: 'Jira & Jira ROVO', level: 6 },
       { name: 'Microsoft 365 & Collaboration Workflows', level: 8 },
       { name: 'Digital Analytics & Performance Metrics', level: 7 },
+      { name: 'Copilot 365', level: 7.5 },
+      { name: 'ChatGPT', level: 8.5 },
+    ],
+  },
+  {
+    name: 'AI Development Tools',
+    skills: [
+      { name: 'Lovable', level: 2 },
+      { name: 'Replit', level: 2 },
+      { name: 'Cursor AI', level: 4 },
     ],
   },
   {
@@ -320,11 +330,27 @@ export const experience: TimelineItem[] = [
 ];
 
 /**
- * Testimonial section (empty for now)
+ * Testimonial section
  */
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
-  testimonials: [],
+  testimonials: [
+    {
+      name: 'Johnathan Sellers',
+      title: 'Strategic Marketing Operations and Technology Leader - Johnathan worked with Megan but on different teams',
+      text: "I had the pleasure of working with Megan during a critical technology implementation program that I led at T-Mobile. When Megan joined the initiative, the team was facing significant challenges due to limited business-portfolio support and unclear requirements. Megan immediately recognized the situation and stepped in without hesitation. She invested countless hours closing gaps, clarifying requirements, and cutting through complexity. Her hard work helped the platform deliver far greater value than originally expected. Her intelligence, work ethic, and proactive problem solving were instrumental in keeping the program moving forward, especially during a particularly difficult phase of our digital transformation. Megan brings a rare combination of deep technical acumen and exceptional relationship-management skills. She is consistently dependable, meets every deadline, follows through on commitments, and approaches every challenge with persistence and a sharp eye for detail. She quickly became an indispensable collaborator and a trusted teammate. I would be genuinely happy to work with Megan again and highly recommend her to any team looking for a strong, reliable, and thoughtful leader.",
+    },
+    {
+      name: 'Kimberly McLean',
+      title: 'Director - Kimberly managed Megan directly',
+      text: "Megan is one of those rare professionals who combines strategic vision with hands-on problem-solving expertise. Throughout our time working together, Megan consistently demonstrated a customer-first mindset, ensuring that every decision was grounded in delivering real value. She approaches challenges with the mindset of a true product owner—balancing innovation, practicality, and long-term impact. What sets Megan apart is her ability to tackle complex issues with AI-driven solutions, translating advanced technology into clear, actionable strategies that move the business forward. Her strategic thinking, coupled with her relentless focus on outcomes, makes her an invaluable asset to any organization. I wholeheartedly recommend Megan to any team seeking a leader who can bridge strategy, customer focus, and cutting-edge technology.",
+    },
+    {
+      name: 'Sara Holman',
+      title: 'Strategic Operations & Portfolio Manager - Sara worked with Megan but on different teams',
+      text: "Working with Megan has been one of the highlights of my career. As a Senior Product Manager, she brings an exceptional blend of intelligence, innovation, and executional excellence to every project. We partnered closely on multiple initiatives, and I was consistently impressed — truly every single day — by her ability to think creatively, stay organized, and drive meaningful results. Megan is the most innovative person I've ever worked with. Her attention to detail is unmatched, and her ability to transform complex challenges into clear, actionable solutions elevates everyone around her. She also has an incredible capacity for learning and adapting. One of her biggest achievements was diving into AI, mastering it quickly, and then empowering her team to incorporate it into their workflows. That initiative alone made her team stronger, more effective, and dramatically improved their delivery. Beyond her impressive skill set, Megan is warm, collaborative, and an absolute pleasure to work with. Any team would be incredibly fortunate to have her, and I recommend her with total confidence.",
+    },
+  ],
 };
 
 /**
