@@ -15,7 +15,6 @@ import portfolioCapitalizationChatbot from '../images/portfolio/portfolio-capita
 import portfolioAiCenter from '../images/portfolio/portfolio-ai-center.png';
 import portfolioCapexAgent from '../images/portfolio/portfolio-capex-agent.png';
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
 import {
   About,
   ContactSection,
@@ -25,7 +24,6 @@ import {
   PortfolioItem,
   SkillGroup,
   Social,
-  TestimonialSection,
   TimelineItem,
 } from './dataDef';
 
@@ -49,7 +47,6 @@ export const SectionId = {
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
-  Testimonials: 'testimonials',
 } as const;
 
 export type SectionId = (typeof SectionId)[keyof typeof SectionId];
@@ -302,14 +299,6 @@ export const experience: TimelineItem[] = [
     ),
   },
 ];
-
-/**
- * Testimonial section (empty for now)
- */
-export const testimonial: TestimonialSection = {
-  imageSrc: testimonialImage,
-  testimonials: [],
-};
 
 /**
  * Contact section
