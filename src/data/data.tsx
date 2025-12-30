@@ -171,7 +171,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'AI Center of Excellence & Builders Hub',
     description:
       'Established an AI Center of Excellence, learning hub, and universal bot builder GPT to scale AI safely through reusable tools, upskilling programs, and the 100-Day AI Challenge.',
-    url: 'https://vimeo.com/1150240749?share=copy&fl=sv&fe=ci#t=0',
+    url: 'https://ozone-legend-96955774.figma.site',
     image: portfolioAiCenter,
   },
   {
