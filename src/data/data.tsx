@@ -11,12 +11,9 @@ import {
 
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+import portfolioCapitalizationChatbot from '../images/portfolio/portfolio-capitalization-chatbot.png';
+import portfolioAiCenter from '../images/portfolio/portfolio-ai-center.png';
+import portfolioCapexAgent from '../images/portfolio/portfolio-capex-agent.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -66,15 +63,11 @@ export const heroData: Hero = {
  description: (
   <>
     <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      Hi, I’m Megan. I care deeply about human-centered AI systems and workflows.  
-      My work is guided by a belief in AI for Everyone and AI for Good, where tools are useful, understandable, and accessible.  
-      As the AI Transformation and Enablement Lead for an Engineering and Excellence IT organization, I’m focused on helping teams explore AI safely and confidently  
-      created our AI Center of Excellence, built responsible-AI guardrails, and developed resources that make it easier for both technical and non-technical teams to start working with AI in practical, meaningful ways.
+      Hi, I'm Megan. I build human-centered systems and workflows that help people work better. My work is guided by a belief that powerful technology, whether AI, automation, or emerging tools, should be useful, understandable, and accessible to everyone. As an AI Transformation and Enablement Lead, I help teams adopt new capabilities safely and confidently. I created an AI Center of Excellence, built responsible AI guardrails, and developed frameworks that make it easier for non-technical personas to leverage generative AI in practical, meaningful, and impactful ways.
     </p>
 
     <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      I’ve also built hands-on tools like a ChatGPT-powered chatbot-builder that lowers the barrier to entry, and a capital assessment support bot that evolved into an embedded ROVO agent inside Jira.  
-      These projects reflect what I care about most: reducing friction, simplifying complexity, and making AI genuinely helpful for people doing real work.
+      I've built hands-on tools like a ChatGPT-powered chatbot-builder and a capital assessment support bot that evolved into an embedded ROVO agent inside Jira. I'm currently using Cursor to build interactive prototypes that pressure test new concepts, win stakeholder buy-in, and illustrate the desired end user experience to technical teams building the end solution. I believe the best technology blends into the natural flow of work, and that's what I build toward.
     </p>
   </>
 ),
@@ -99,7 +92,7 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description:
-    'Senior Technical Product Manager who thrives at the intersection of technology, strategy, and human impact. I build AI products, portfolio frameworks, and enablement programs that make work simpler and smarter.',
+    'Product Manager who builds products users actually need and are easy to use. I work across engineering, data, design, and business teams to ship high-value features iteratively, validating feasibility early so roadmaps aren\'t built on wishful thinking. I\'m committed to responsible design, especially for AI features that require explainability and transparency. I\'m ruthless about what we ship and allergic to products that are innovative in theory but useless in practice.',
   aboutItems: [
     { label: 'Location', text: 'Seattle, WA', Icon: MapIcon },
     {
@@ -149,6 +142,18 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
+    name: 'AI Tools',
+    skills: [
+      { name: 'ChatGPT', level: 8 },
+      { name: 'Claude', level: 8 },
+      { name: 'Copilot 365', level: 7 },
+      { name: 'Gamma AI', level: 7 },
+      { name: 'Cursor AI', level: 5 },
+      { name: 'Lovable', level: 3 },
+      { name: 'Replit', level: 3 },
+    ],
+  },
+  {
     name: 'Business & Commercial',
     skills: [
       { name: 'P&L Ownership & Financial Analysis', level: 8 },
@@ -166,43 +171,22 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'AI Center of Excellence & Builders Hub',
     description:
       'Established an AI Center of Excellence, learning hub, and universal bot builder GPT to scale AI safely through reusable tools, upskilling programs, and the 100-Day AI Challenge.',
-    url: '#',
-    image: porfolioImage1,
+    url: 'https://vimeo.com/1150240749?share=copy&fl=sv&fe=ci#t=0',
+    image: portfolioAiCenter,
   },
   {
     title: 'Capitalization Chatbot → Jira ROVO Agent',
     description:
       'Designed and launched a patent-pending accounting capitalization chatbot that evolved into a Jira ROVO agent to automate capitalization assessments and improve decision speed and accuracy.',
-    url: '#',
-    image: porfolioImage2,
+    url: 'https://vimeo.com/1150240749',
+    image: portfolioCapitalizationChatbot,
   },
   {
-    title: 'Single Front Door & IT 1–N Prioritization',
+    title: 'CapEx Self-Assessment Agent',
     description:
-      'Launched T-Mobile’s Single Front Door to streamline IT intake across multiple domains, supporting 3K+ annual initiatives, and built an IT 1–N prioritization framework.',
-    url: '#',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Portfolio SaaS Solution MVP',
-    description:
-      'Spearheaded development and on-time launch of a Portfolio SaaS MVP adopted by 1,600 users across IT and business portfolio teams.',
-    url: '#',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Digital Supplier Ecosystem & Tooling',
-    description:
-      'Managed transition to 11 strategic suppliers with $200M in annual digital spend and created prototypes for supplier payment and performance tooling.',
-    url: '#',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Amazon Fashion Portfolio & Accelerator',
-    description:
-      'Managed a $500M Amazon Fashion portfolio with 36% revenue growth and scaled an emerging brands accelerator from 11 to 70+ companies.',
-    url: '#',
-    image: porfolioImage6,
+      'Interactive prototype of an AI agent that monitors Jira for new Epics, extracts context from project artifacts, and pre-populates capitalization questionnaires for human review. Evolved from an earlier ChatGPT-based chatbot into a proactive, workflow-integrated solution with full transparency and Accounting Team oversight.',
+    url: 'https://claude.ai/public/artifacts/845e4b8d-29cb-4f0d-ab2c-dfa9f6efd25e',
+    image: portfolioCapexAgent,
   },
 ];
 
