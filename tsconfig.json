@@ -16,13 +16,14 @@
     "noUnusedParameters": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true
   },
   "include": [
+    "next-env.d.ts",
     "./src/**/*"
   ],
   "exclude": [
