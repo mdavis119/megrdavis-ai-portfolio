@@ -189,8 +189,8 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Dentist Office AI Voice Agent',
     description:
-      'Built a conversational AI voice agent for a dentist office using Bland AI that handles appointment scheduling, patient inquiries, and office information — delivering a seamless, always-available front-desk experience.',
-    url: 'https://app.bland.ai/home/call-logs',
+      'Built a conversational AI voice agent for a dentist office using Vapi that handles appointment scheduling, patient inquiries, and office information — delivering a seamless, always-available front-desk experience.',
+    url: 'https://vapi.ai/?demo=true&shareKey=4c33a7ed-5f31-4a37-aa93-26d95f99e7c8&assistantId=4a526452-c385-41b1-a612-c29bfb21e256',
     image: portfolioDentistAgent,
   },
 ];
