@@ -14,6 +14,7 @@ import heroImage from '../images/header-background.webp';
 import portfolioCapitalizationChatbot from '../images/portfolio/portfolio-capitalization-chatbot.png';
 import portfolioAiCenter from '../images/portfolio/portfolio-ai-center.png';
 import portfolioCapexAgent from '../images/portfolio/portfolio-capex-agent.png';
+import portfolioDentistAgent from '../images/portfolio/portfolio-dentist-agent.png';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -184,6 +185,13 @@ export const portfolioItems: PortfolioItem[] = [
       'Interactive prototype of an AI agent that monitors Jira for new Epics, extracts context from project artifacts, and pre-populates capitalization questionnaires for human review. Evolved from an earlier ChatGPT-based chatbot into a proactive, workflow-integrated solution with full transparency and Accounting Team oversight.',
     url: 'https://claude.ai/public/artifacts/845e4b8d-29cb-4f0d-ab2c-dfa9f6efd25e',
     image: portfolioCapexAgent,
+  },
+  {
+    title: 'Dentist Office AI Voice Agent',
+    description:
+      'Built a conversational AI voice agent for a dentist office using Bland AI that handles appointment scheduling, patient inquiries, and office information — delivering a seamless, always-available front-desk experience.',
+    url: 'https://app.bland.ai/home/call-logs',
+    image: portfolioDentistAgent,
   },
 ];
 
